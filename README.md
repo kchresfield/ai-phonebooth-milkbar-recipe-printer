@@ -32,3 +32,11 @@ Try running your project again:
 ```
 node server.js
 ```
+
+
+Other edge cases important to remember for future implementation:
+The `printer` library is very old. They hardcode "python" rather than python3, so a python shim that points to python3 must be created:
+brew install python@3
+sudo ln -s /usr/bin/python3 /usr/local/bin/python
+or
+sudo ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
