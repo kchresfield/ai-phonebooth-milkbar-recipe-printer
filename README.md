@@ -40,3 +40,9 @@ brew install python@3
 sudo ln -s /usr/bin/python3 /usr/local/bin/python
 or
 sudo ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
+
+
+
+
+Notes for future Kaelyn: Look into `printer-npm`, looks newer.
+
